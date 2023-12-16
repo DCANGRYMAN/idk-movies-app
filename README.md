@@ -1,18 +1,18 @@
 # Movie Search App 🎬
 
-![GitHub last commit](https://img.shields.io/github/last-commit/seu-usuario/seu-repositorio?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/seu-usuario/seu-repositorio?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/seu-repositorio?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/DCANGRYMAN/idk-movies-app?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/DCANGRYMAN/idk-movies-app?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/DCANGRYMAN/idk-movies-app?style=social)
 
-Uma aplicação simples para buscar filmes, exibir informações detalhadas e assistir trailers.
+A simple Angular app for searching and viewing movie details.
 
-## Funcionalidades
+## Functionalities
 
-- **Pesquisa de Filmes:** Insira o nome do filme na barra de pesquisa para obter uma lista de resultados.
-- **Detalhes do Filme:** Visualize detalhes do filme, incluindo data de lançamento, sinopse e classificação.
-- **Assistir Trailer:** Assista aos trailers dos filmes diretamente da aplicação.
+- **Movie Search:** Enter the movie name in the search bar to get a list of results.
+- **Movie Details:** View detailed information about the movie, including release date, overview, and rating.
+- **Watch Trailer:** Watch movie trailers directly from the application.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Angular
 - TypeScript
@@ -20,17 +20,19 @@ Uma aplicação simples para buscar filmes, exibir informações detalhadas e as
 - CSS/SCSS
 - The Movie Database (TMDb) API
 
-## Como Executar o Projeto
+## How to Run the Project
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
-2. Instale as dependências: `npm install`
-3. Inicie a aplicação: `ng serve`
-4. Acesse [http://localhost:4200](http://localhost:4200) no seu navegador.
+1. Clone the repository: `git clone https://github.com/DCANGRYMAN/idk-movies-app.git`
+2. Install dependencies: `npm install`
+3. Start the application: `ng serve`
+4. Access [http://localhost:4200](http://localhost:4200) in your browser.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
+Contributions are welcome! Feel free to open an issue or send a pull request.
 
-## Licença
+## License
 
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+[Repository](https://github.com/DCANGRYMAN/idk-movies-app)
