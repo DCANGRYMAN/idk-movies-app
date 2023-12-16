@@ -1,27 +1,36 @@
-# IdkMoviesApp
+# Movie Search App 🎬
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+![GitHub last commit](https://img.shields.io/github/last-commit/seu-usuario/seu-repositorio?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/seu-usuario/seu-repositorio?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/seu-usuario/seu-repositorio?style=social)
 
-## Development server
+Uma aplicação simples para buscar filmes, exibir informações detalhadas e assistir trailers.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- **Pesquisa de Filmes:** Insira o nome do filme na barra de pesquisa para obter uma lista de resultados.
+- **Detalhes do Filme:** Visualize detalhes do filme, incluindo data de lançamento, sinopse e classificação.
+- **Assistir Trailer:** Assista aos trailers dos filmes diretamente da aplicação.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+- Angular
+- TypeScript
+- HTML
+- CSS/SCSS
+- The Movie Database (TMDb) API
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como Executar o Projeto
 
-## Running unit tests
+1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
+2. Instale as dependências: `npm install`
+3. Inicie a aplicação: `ng serve`
+4. Acesse [http://localhost:4200](http://localhost:4200) no seu navegador.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contribuição
 
-## Running end-to-end tests
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Licença
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.

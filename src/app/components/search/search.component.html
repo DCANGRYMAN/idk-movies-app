@@ -1,0 +1,19 @@
+<!-- search.component.html -->
+
+<div>
+  <h1>Movie Search</h1>
+  <input type="text" [(ngModel)]="searchInput" placeholder="Digite o nome do filme" (input)="searchMovies()">
+  <button (click)="searchMovies()">Buscar</button>
+</div>
+
+<div id="movieResults">
+  <div *ngFor="let movie of movieResults" class="movie">
+    <img [src]="movie.poster_path" alt="{{ movie.title }} poster">
+    <h2>{{ movie.title }}</h2>
+    <p>Lançamento: {{ movie.release_date }}</p>
+    <p>Classificação: {{ movie.rating }}</p>
+    <p>{{ movie.overview }}</p>
+    <button (click)="openYoutubeTrailer(movie.id)">Assistir Trailer</button>
+  </div>
+  <div *ngIf="noResultsMsg" class="no-results">{{ noResultsMsg }}</div>
+</div>
